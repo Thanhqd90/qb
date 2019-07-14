@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+  padding-top: 0;
+}
+@media (min-width: 768px) {
+  #bg-img .c-case-study-blade__wrapper {
+    background-image: url("../img/QuorumBG.jpg");
+  }
+}
+.blue-diamond {
+  height: 1322px;
+  width: 1322px;
+  background: linear-gradient(147.81deg, #005b99 0, #009de2 100%);
+  position: absolute;
+  border-radius: 30px;
+  opacity: 0.75;
+  transform: translate(-80%, -50%) rotate(45deg);
+  top: 40%;
+  left: 40%;
+}
+@media (max-width: 768px) {
+  .blue-diamond {
+    background-image: url("../img/case-study-mobile-bkgd.gif") !important;
+    background-repeat: repeat;
+  }
+}
+.blue-diamond:after {
+  content: "";
+  height: 230px;
+  width: 230px;
+  background-color: #005b99;
+  position: absolute;
+  border-radius: 20px;
+  opacity: 0.85;
+  top: -5%;
+  right: -22%;
+}
